@@ -29,10 +29,10 @@ const Header: React.FC = () => {
           }`}
           whileHover={{ scale: 1.05 }}
         >
-          YourBrand
+           BadrDav
         </motion.h1>
         <nav className="space-x-6">
-          {['Home', 'About', 'Services', 'Contact'].map((item, index) => (
+          {['Home', 'About', 'Services'].map((item, index) => (
             <motion.a
               key={index}
               href={`#${item.toLowerCase()}`}
