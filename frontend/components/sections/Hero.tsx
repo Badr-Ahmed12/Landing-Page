@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4">Welcome to Our Modern Landing Page</h1>
+        <h1 className="text-3xl md:text-7xl font-extrabold text-white mb-4">Welcome to Our Modern Landing Page</h1>
         <p className="mt-4 text-xl text-white mb-8">Build stunning pages with React and Tailwind CSS.</p>
         <motion.button 
           className="px-8 py-4 bg-white text-purple-600 rounded-full text-lg font-semibold shadow-lg hover:bg-purple-100 transition duration-300"
