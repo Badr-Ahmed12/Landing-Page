@@ -15,7 +15,6 @@ const Footer: React.FC = () => (
             <li><a href="#home" className="hover:text-purple-400 transition duration-300">Home</a></li>
             <li><a href="#about" className="hover:text-purple-400 transition duration-300">About</a></li>
             <li><a href="#services" className="hover:text-purple-400 transition duration-300">Services</a></li>
-            <li><a href="#contact" className="hover:text-purple-400 transition duration-300">Contact</a></li>
           </ul>
         </div>
         <div className="w-full md:w-1/4 mb-8 md:mb-0">
