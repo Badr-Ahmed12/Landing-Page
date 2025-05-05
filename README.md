@@ -1,4 +1,4 @@
-# 📊 Modern Dashboard App
+#  Modern Landing-page
 
 A clean, responsive and interactive landing-page built using **React**, **TypeScript**, **Tailwind CSS**  
 
@@ -7,7 +7,6 @@ A clean, responsive and interactive landing-page built using **React**, **TypeSc
 ## ✨ Features
 
 <ul>
-  <li>📈 Dynamic charts with <strong>Chart.js</strong></li>
   <li>🎨 Beautiful design powered by <strong>Tailwind CSS</strong></li>
   <li>⚙️ Built with <strong>TypeScript</strong> for type safety</li>
   <li>📱 Fully responsive layout</li>
