@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #606c38;
+    --secondary-color: #283618;
+    --background-color: #fefae0;
+    --accent-color: #dda15e;
+    --highlight-color: #bc6c25;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--highlight-color);
+}
+
+a {
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--highlight-color);
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+  
+   
